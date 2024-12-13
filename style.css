@@ -124,7 +124,7 @@ header ul {
     background-color: rgba(0, 0, 0, 0.005);
 }
 .sidebar a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(255, 213, 5);
     color: white;
 }
 
