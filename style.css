@@ -257,18 +257,16 @@ header ul {
 .footer-box-container {
     height: auto;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
+    display: flex; 
     gap: 10%;
 }
 
 
 
 .footer-box-1 {
-    width: 40%;
     text-align: justify;
+    flex: 1;
+    margin-left: 1%;
 }
 
 
@@ -287,8 +285,9 @@ header ul {
 }
 
 .footer-box-2 {
-    width: 40%;
     text-align: justify;
+    flex: 1;
+    margin-right: 1%;
 }
 .footer-box-2 h3 {
     background-color: rgb(242, 239, 231);
@@ -304,3 +303,4 @@ header ul {
     display: block;
     padding-left: 5px;
 }
+
